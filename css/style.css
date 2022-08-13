@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #010A10;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    animation: down 2s linear;
+    transition: all ease-in-out 1s;
+}
+
+.desc{
+    color: white;
+    text-align: center;
+    font-size: 16pt;
+    transition: all ease-in-out 1s;
+
+}
+/* FFFBF2
+C10206
+A50113 */
+
+.apr{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 20pt;
+    background-color: #C10206
+    ;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 1px 2px 10px #2C394B;
+    animation: down 2s  linear;
+    transition: all ease-in-out 1s;
+    margin-top: 2%;
+
+
+    
+}
+
+.apr:hover {
+    width: 60%;
+      transition: all ease-in-out 1s;
+  }
+
+
+
+
+.events {
+    width: 450px;
+    height: 50%;
+    border: 1px solid white;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+.next-events{
+    color: white;
+    text-align: center;
+}
+
+img{
+    width: 300px;
+
+
+}
+
+.prices{
+    text-transform: uppercase;
+    color: white;
+    font-size: 20pt;
+}
+
+button{
+    text-transform: uppercase;
+    font-size: 20pt;
+    border-radius: 20px;
+    padding: 10px;
+    
+
+}
+
+button:hover{
+    background-color: #C10206;
+    color: white;
+    
+
+}
+
+#img-prec{
+    display: none;
+}
+
+.img-preco{
+
+    width: 75%;
+
+}
+
+.buy {
+    text-transform: uppercase;
+    font-size: 15pt;
+    color: black;
+    
+}
+
+.comprar{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    width: 450px;
+    height: 50%;
+
+
+}
+
+.setor {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15pt;
+    background-color: #6e68681f;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15px;
+
+    
+}
+.setor:hover {
+    background-color: #C10206;
+}
+
+#setor {
+   display: none;
+   transition: all ease-in-out 1s;
+
+}
+
+.observ{
+    color: white;
+}
+
+.welcome {
+    text-align: center;
+    color: white;
+
+}
+
+form{
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    width: 500px;
+    height: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 20pt;
+}
+
+input {
+    width: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.459);
+    background-color:black ;
+    color: white;
+
+}
+
+.logo {
+    text-align: center;
+    width: 100px;
+    margin: auto;
+}
+
+.logodiv {
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    padding: 50px;
+
+}
